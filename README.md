@@ -1,6 +1,6 @@
-# wpalmer/php:5.5-fpm-mysql
+# wpalmer/php:5.5-fpm-mysql-soap
 
-adds mysql-related extensions to the "official" php:5.5-fpm image
+adds soap-related extensions to the wpalmer/php:5.5-fpm-mysql image
 
 extensions:
 
@@ -10,3 +10,4 @@ extensions:
  - mysqli
  - pdo
  - pdo-mysql
+ - soap
